@@ -49,7 +49,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div class="fadeInLeft animated">
+          <div class="fadeInLeft animated intro">
             <h1>
               LatLong
             </h1>
@@ -115,6 +115,11 @@ caret-color: #1b9660;
 }
 &::placeholder {
   color: #ffffff80;
+}
+@media screen and (max-width: 400px){
+  &::placeholder {
+    font-size: 12px;
+  }
 }
 ` 
 const Submit = styled.input`
