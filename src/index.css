@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h1 {
+  text-align: left;
+  align-self: flex-start;
+}
+h2 {
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 100;
+  align-self: flex-start;
+  color: #1b9660;
+  margin-bottom: 30px;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
