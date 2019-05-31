@@ -57,14 +57,14 @@ class App extends React.Component {
             <StyledInput 
             type="text" 
             value={this.state.coord1}
-            placeholder="Enter the coordinates of the first place" 
+            placeholder="Enter the name of the first place (i.e. 'paris')" 
             onChange={ (event) => this.setState({coord1: event.target.value})}
             />
             <br/>
             <StyledInput 
             type="text" 
             value={this.state.coord2}
-            placeholder="Enter the coordinates of the second place" 
+            placeholder="Enter the name of the second place (i.e. 'colorado')" 
             onChange={ (event) => this.setState({coord2: event.target.value})}
             />
             <Submit type="submit" value="Submit" />
