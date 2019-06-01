@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-}
 
+}
+body { 
+  overflow: hidden;
+}
 .intro {
   text-align: left;
 }
