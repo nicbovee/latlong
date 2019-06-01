@@ -17,7 +17,8 @@ export class MapContainer extends React.Component {
             name={this.props.mapObjects[0].name}
             position={{lat: this.props.mapObjects[0].lat, lng: this.props.mapObjects[1].lng}} 
         />
-            <Marker
+        
+        <Marker
             name={this.props.mapObjects[0].name}
             position={{lat: this.props.mapObjects[1].lat, lng: this.props.mapObjects[0].lng}} 
         />

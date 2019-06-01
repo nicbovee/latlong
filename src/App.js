@@ -65,7 +65,7 @@ class App extends React.Component {
         <LeftCol>
           <div className="App">
           <header className="App-header">
-            <div class="fadeInLeft animated intro">
+            <div className="fadeInLeft animated intro">
               <h1>
                 LatLong
               </h1>
@@ -125,11 +125,11 @@ class App extends React.Component {
             
           </RightCol>
         }
-        { this.state.first && this.state.second &&
-        <div>
-          <Map mapObjects={this.state.mapObjects}/>
-        </div>
-          }
+        {this.state.first && this.state.second &&
+          <div>
+            <Map mapObjects={this.state.mapObjects}/>
+          </div>
+        }
 
       </Main>
       
